@@ -1,4 +1,5 @@
 <h1 align="center">Hi 👋, I'm Three-rgb</h1>
+<h3 align="center">RPA & Data Automation Engineer | Python | OCR）</h3>
 <h3 align="center">影刀 RPA 开发工程师 | RPA 自动化 & 数据工程 & RPA+AI 落地</h3>
 
 <p align="center">
