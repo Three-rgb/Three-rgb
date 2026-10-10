@@ -8,8 +8,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/%E5%BD%B1%E5%88%80RPA-%E9%AB%98%E7%BA%A7%E8%AE%A4%E8%AF%81-2F81F7?style=flat-square" alt="YingDao RPA" />
-  <img src="https://img.shields.io/badge/%E7%8E%B0%E5%B1%85-%E5%B9%BF%E5%B7%9E-1F6FEB?style=flat-square" alt="Location" />
-  <img src="https://img.shields.io/badge/%E5%88%B0%E5%B2%97-%E7%9F%AD%E6%9C%9F%E5%86%85%E5%8F%AF%E5%88%B0%E5%B2%97-2DA44E?style=flat-square" alt="Available" />
   <a href="mailto:3075758453@qq.com"><img src="https://img.shields.io/badge/Email-3075758453%40qq.com-EA4335?style=flat-square" alt="Email" /></a>
 </p>
 
