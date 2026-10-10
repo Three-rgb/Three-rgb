@@ -65,8 +65,16 @@
 
 
 ---
-<!-- 🐍 贡献贪吃蛇 -->
-![github-snake](https://raw.githubusercontent.com/Three-rgb/Three-rgb/output/github-snake.gif)
+<!-- 🐍 Contribution Snake Game / 贡献贪吃蛇游戏 -->
+<h2 align="center">🐍 贡献贪吃蛇游戏 | Contribution Snake Game</h2>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Three-rgb/Three-rgb/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Three-rgb/Three-rgb/output/github-snake-light.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/Three-rgb/Three-rgb/output/github-snake-dark.svg" />
+  </picture>
+</p>
 
 
 <p align="center">
