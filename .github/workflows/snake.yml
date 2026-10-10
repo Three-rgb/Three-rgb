@@ -1,14 +1,11 @@
 name: Generate Snake
 
 on:
-  # 每 6 小时更新一次贪吃蛇进度
+  # 每 6 小时自动更新一次
   schedule:
     - cron: "0 */6 * * *"
-  # 每次你手动触发或提交代码时也会更新
+  # 允许你手动触发
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   build:
@@ -16,21 +13,26 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        # 更新到最新版 v4
+        uses: actions/checkout@v4
       
       - name: Generate Snake Animation
-        uses: Platane/snk@master
+        # 使用最新版 Platane
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # 生成深色和浅色两套图片
           outputs: |
-            dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-          
+            dist/github-snake-light.svg?palette=github-light
+            dist/github-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+      
       - name: Push Snake Animation to Output Branch
-        uses: peaceiris/actions-gh-pages@v3
+        # 更新到最新版 v4
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
           publish_branch: output
+          # 首次运行时不需要保留旧文件
           keep_files: false
